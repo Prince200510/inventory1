@@ -1,6 +1,6 @@
 import { useLocation, Navigate, useNavigate, Link, Route, Routes, Outlet } from 'react-router-dom';
 import './Dashboard.css';
-import { AiOutlineSearch, AiOutlineDown, AiOutlineDelete } from 'react-icons/ai';
+import { AiOutlineSearch, AiOutlineDown } from 'react-icons/ai';
 import { FaPalette, FaNewspaper, FaTruck, FaBox } from 'react-icons/fa';
 import { IoCartOutline, IoPeopleOutline, IoSettingsOutline } from 'react-icons/io5';
 import React, { useState } from 'react';
@@ -11,8 +11,6 @@ import Purchase from './Purchase';
 import NewSale from './NewSale.js';
 import HistorySale from './HistorySale';
 import Bussiness from './Bussiness.js';
-import EditBusiness from './EditBusiness';
-import Bill from './Bill';
 
 const Dashboard = () => {
     const location = useLocation();
@@ -23,7 +21,7 @@ const Dashboard = () => {
 
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
-    };
+    }; 
 
     const toggleDropdown1 = () => {
         setIsDropdownOpen1(!isDropdownOpen1);
