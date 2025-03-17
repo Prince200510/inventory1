@@ -1,0 +1,520 @@
+.login-details {
+    background-color: #3B8DBC;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.login-details h2 {
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #397BA5;
+}
+.login-details .nav-bar-login ul {
+    display: flex;
+    margin: 0; 
+    padding: 0; 
+}
+.login-details .nav-bar-login ul li{
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    padding-top: 7px;
+}
+.login-details .nav-bar-login ul li:last-child{
+    margin-right: 40px;
+}
+.login-details .nav-bar-login ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.login-details .nav-bar-login {
+    margin-left: auto; 
+}
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard .nav-bar {
+    background-color: #212C30;
+    width: 100%;
+    max-width: 192px;
+    height: 95vh;
+    display: flex;
+}
+.dashboard .nav-bar ul{
+    margin: 0;
+    padding: 10px;
+    margin-left: 10px;
+}
+.dashboard .nav-bar ul li:first-child{
+    margin-top: 20px;
+}
+.dashboard .nav-bar ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.dashboard .nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.dashboard .nav-bar .icons{
+    margin-right: 10px;
+    color: #fff;
+}
+.dashboard .nav-bar span{
+    margin-left: 70px;
+}
+.dashboard .main-content{
+    width: 100%;
+    max-width: 80%;
+}
+.dropdown1,
+.dropdown{
+    color: #fff;
+    cursor: pointer;
+}
+/* Report1 */
+.report1-container{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+}
+.report1-container select{
+    padding: 5px;
+    margin-left: 10px;
+}
+.report1-container h2{
+    font-weight: 500;
+}
+.report1-child{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+}
+.report-item {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.report-item  .logo-report h2{
+    margin: 0;
+    width: 50px;
+    height: auto;
+}
+.report-item  .logo-report{
+    padding: 10px 10px;
+    background-color: #00A75A;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.report-content p{
+    margin: 10px 10px 0px 0px;
+}
+.icons-report{
+    font-size: 45px;
+}
+.report-content h4,
+.report-content h3{
+    margin: 0;
+}
+.report-content h4{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+/* supplier */
+.supplier{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.supplier-container{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.supplier-container h3{
+    margin: 4px;
+}
+.new-supplier-entry{
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-supplier-entry .data{
+    margin-right: 20px;
+}
+.new-supplier-entry .data select,
+.new-supplier-entry .data input{
+    padding: 10px 10px;
+    border: 1px solid #cfd1d2;
+    margin-top: 5px;
+}
+.new-supplier-entry .data button{
+    padding: 10px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #02BDEE;
+    border: 1px solid #0390b3;
+    color: #fff;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.new-supplier-entry .data button:hover{
+    transform: scale(1.05);
+    background-color: #018daf;
+    border: 1px solid #01637b;
+}
+.supplier-data-show{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+.supplier-data-show {
+    width: 100%;
+}
+
+.supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.supplier-table th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.supplier-table th{
+    padding: 8px;
+    text-align: left;
+}
+.supplier-table td {
+    border-bottom: 1px solid #ccc;
+    border-right: 2px solid #f0eeee;
+    padding: 8px;
+    text-align: left;
+}
+.supplier-table .delete{
+    width: 20px;
+    height: auto;
+    color: #fff;
+}
+.supplier-table button{
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.supplier-table th {
+    background-color: #ffffff;
+}
+/* Purchase Order */
+.supplier span{
+    margin-right: 10px;
+    color: grey;
+}
+.parent-purchase{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.parent-purchase-product{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.parent-purchase-product .child-purchase-product select,
+.parent-purchase-product .child-purchase-product input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+.parent-purchase-product .child-purchase-product input{
+    width: 90%;
+}
+.parent-purchase-product-1{
+    margin-right: 16px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-purchase-product-1 .child-purchase-product-1{
+    margin-right: 40px;
+}
+.parent-purchase-product-1 .child-purchase-product-2 label{
+    margin-right: 20px;
+}
+.parent-purchase-product-1 .child-purchase-product-2 select,
+.parent-purchase-product-1 .child-purchase-product-2 input{
+    padding: 8px;
+    margin-top: 10px;
+}
+.parent-purchase-product-1 .child-purchase-product-2 button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #02BDEE;
+    border: 1px solid #02BDEE;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 90px;
+}
+.purchase-table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.purchase-table td,
+.purchase-table th{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid grey;
+}
+.purchase-table input{
+    padding: 8px;
+}
+.delete{
+    color: #fff;
+}
+.purchase-table button{
+    background-color: red;
+    border: 1px solid red;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.parent-purchase-product-1 .child-purchase-product-2{
+    border: 1px solid grey;
+    padding: 20px;
+}
+.report1-container-1{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
+.report1-container-1 .report-chart-bar{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 5px;
+}
+.bar{
+    padding: 20px;
+    margin-top: 20px;
+}
+.report-selection{
+    display: flex;
+}
+.report-selection p{
+    margin-left: 20px;
+}
+.newsalebutton{
+    padding: 8px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #00A75A;
+    border: 1px solid #00A75A;
+    color: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.newsalebutton:last-child{
+    background-color: #018daf;
+}
+.newsalebutton:hover{
+    transform: scale(1.05);
+}
+.newsale-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Sales History */
+.salehistory-header{
+    display: flex;
+}
+.salehistory-header span{
+    font-weight: 400;
+}
+/* Business */
+.parent-business{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parent-business .child-business{
+    background-color: #fff;
+}
+.parent-business .child-business img{
+    width: 360px;
+    height: 300px;
+    margin-bottom: -4px;
+}
+.line-break {
+    max-width: 200px; 
+    word-wrap: break-word;
+}
+.sub-parent-business{
+    border: 1px solid black;
+    display: flex;
+}
+.sub-parent-business .sub-child-business{
+    padding: 20px;
+}
+.sub-parent-business .sub-child-business h3{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.sub-parent-business .sub-child-business hr{
+    background-color: red;
+    border: 1px solid red;
+    width: 50px;
+    height: 2px;
+    border-radius: 2px;
+    margin-left: 0px;
+}
+.business-details{
+    display: flex;
+}
+.business-details h2{
+    border-radius: 51%;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.sub-business-details p{
+    margin: -3px;
+}
+.parent-business .child-business p{
+    margin-left: 3px;
+    margin-top: 0px;
+}
+.business-icons{
+    position: absolute;
+    top: 30%;
+    left: 63%;
+}
+.business-icons img{
+    width: 50px;
+    height: auto;
+}
+.business-edit-button{
+    margin-top: 30px;
+}
+.business-edit-button button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #02BDEE;
+    border: 1px solid #02BDEE;
+    transition: 0.3s;
+    color: #fff;
+    font-weight: 600;
+}
+.business-edit-button button:hover{
+    transform: scale(1.05);
+}
+.parent-editbusiness{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.parent-editbusiness .child-editbusiness{
+    margin-right: 20px;
+}
+.parent-editbusiness .child-editbusiness label{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.parent-editbusiness .child-editbusiness input{
+    padding: 8px;
+    margin-top: 10px;
+}
+.line-break1{
+    text-align: center;
+    max-width: 180px; 
+    word-wrap: break-word;
+}
+/* Bill */
+.parent-bill{
+    justify-content: center;
+    background-color: #fff;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 340px;
+}
+.parent-bill .child-bill{
+    display: flex;
+    justify-content: center;
+}
+.parent-bill .child-bill-1 h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+.parent-bill .child-bill-1 span{
+    font-weight: 400;
+}
+.parent-bill .child-bill-1 p{
+    font-weight: bold;
+    margin: 0px;
+}
+.dashed-line {
+    border: none;
+    border-top: 2px dashed #000;
+    margin: 5px 0;
+}
+.print{
+    margin-left: 120px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #00A75A;
+    border: 1px solid #00A75A;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.print:hover{
+    transform: scale(1.05);
+}
+.bill-center{
+    display: flex;
+    justify-content: center;
+}
+@media  (max-width: 968px) {
+    .report1-child {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 568px) {
+    .report1-child {
+        grid-template-columns: 1fr;
+    }
+    .parent-purchase-product{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+}
